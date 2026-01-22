@@ -1,24 +1,17 @@
 
 ## Setup
 
-1. [Install Java](#java)  
+1. [Install Java e Git](#java)  
 2. [Install Angular](#angular)  
  
-## Java
+## Java e Git
 
 ````Java
-#!/bin/bash
+Write-Host "Instalação Git, GitHub CLI e Java"
 
-echo "Instalando Git, GitHub CLI e Java"
-
-sudo apt-get update -y
-sudo apt-get install -y git openjdk-17-jdk curl
-
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
-sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
-sudo apt-get update -y
-sudo apt-get install -y gh
+winget install --id Git.Git --source winget --accept-package-agreements --accept-source-agreements
+winget install --id GitHub.cli --source winget --accept-package-agreements --accept-source-agreements
+winget install --id Microsoft.OpenJDK.17 --source winget --accept-package-agreements --accept-source-agreements
 
 git --version
 gh --version
