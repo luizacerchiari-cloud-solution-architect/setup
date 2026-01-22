@@ -6,6 +6,7 @@
  
 ## Java e Git
 
+
 ````Java
 Write-Host "Instalação Git, GitHub CLI e Java"
 
@@ -38,3 +39,9 @@ npm -v
 ng version
 
 ```
+
+> **Nota: Nenhum repositorio neste perfil tem fins de abordar noticias, assuntos politicos, jurídicos, eclesiásticos, ou semelhantes, se houver erros, desconsidere**
+
+
+
+> **Objetivo do repositório: Estudos, sem fins politicos ou religiosos**> **Objetivo do repositório: Estudos, sem fins politicos ou religiosos**
