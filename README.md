@@ -1,7 +1,6 @@
 
-## Java, Git, Angular
+## Setup
 
-# Table of contents  
 1. [Install Java](#java)  
 2. [Install Angular](#angular)  
  
