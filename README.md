@@ -44,4 +44,3 @@ ng version
 
 
 
-> **Objetivo do repositório: Estudos, sem fins politicos ou religiosos**> **Objetivo do repositório: Estudos, sem fins politicos ou religiosos**
