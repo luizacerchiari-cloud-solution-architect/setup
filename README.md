@@ -40,7 +40,7 @@ ng version
 
 ```
 
-> **Nota: Nenhum repositorio neste perfil tem fins de abordar noticias, assuntos politicos, jurídicos, eclesiásticos, ou semelhantes, se houver erros, desconsidere**
+
 
 
 
